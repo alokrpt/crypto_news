@@ -15,7 +15,6 @@ class NewsItem extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: InkWell(
         onTap: () {
-          print(news.webUrl);
           launchUrl(Uri.parse(news.webUrl));
         },
         child: Row(
@@ -24,7 +23,12 @@ class NewsItem extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(news.source),
+                Text(
+                  news.source,
+                  style: const TextStyle(
+                    color: Colors.orange,
+                  ),
+                ),
                 _padding4(),
                 SizedBox(
                   width: MediaQuery.of(context).size.width - imageHeight - 104,
