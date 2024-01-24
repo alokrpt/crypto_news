@@ -1,16 +1,12 @@
 # crypto_news
 
-A new Flutter project.
+A Flutter project to show realtime news related to crypto currencies.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project can be built for various platforms like iOS, android, web, desktop etc.
 
-A few resources to get you started if this is your first Flutter project:
+A few resources to get you started with this project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [API: To Fetch News Articles](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
