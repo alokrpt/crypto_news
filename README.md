@@ -5,7 +5,8 @@ A Flutter project to show realtime news related to crypto currencies.
 ## Getting Started
 
 This project can be built for various platforms like iOS, android, web, desktop etc.
-![plot](assets/screenshot.png "App Screenshot")
+
+<img src="assets/screenshot.png" width="48"/>
 
 A few resources to get you started with this project:
 
